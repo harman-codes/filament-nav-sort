@@ -1,0 +1,37 @@
+{
+    "name": "harman/filament-nav-sort",
+    "description": "Sorts Filament navigation items",
+    "keywords": [
+        "harman-codes",
+        "laravel",
+        "filament",
+        "filament-nav-sort"
+    ],
+    "homepage": "https://github.com/harman-codes/filament-nav-sort",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Harman",
+            "email": "harman@redwavesmedia.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "spatie/laravel-package-tools": "^1.16"
+    },
+    "autoload": {
+        "psr-4": {
+            "Harman\\FilamentNavSort\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Harman\\FilamentNavSort\\FilamentNavSortServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
